@@ -23,6 +23,37 @@ describe('gradeQuestion', () => {
   });
 });
 
+describe('rubrik esai', () => {
+  it('memecah setiap rubrik menjadi tepat 4 kriteria', () => {
+    const essays = data.flatMap((simulation) => simulation.questions.filter((q) => q.kind === 'essay'));
+    expect(essays).toHaveLength(10);
+    for (const essay of essays) {
+      const criteria = rubricCriteria(essay.rubric);
+      expect(criteria, essay.id).toHaveLength(4);
+      expect(criteria.every((item) => item.length > 0), essay.id).toBe(true);
+    }
+  });
+
+  it('tetap 4 kriteria ketika koma muncul di dalam satu kriteria', () => {
+    const rubric =
+      'Usulan bantuan (0.25), alasan (0.25), Jepang natural (0.25), 2–3 kalimat mudah dipahami (0.25)';
+    expect(rubricCriteria(rubric)).toEqual([
+      'Usulan bantuan (0.25)',
+      'alasan (0.25)',
+      'Jepang natural (0.25)',
+      '2–3 kalimat mudah dipahami (0.25)',
+    ]);
+  });
+
+  it('memberi skor maksimum 1 untuk empat kriteria terpenuhi', () => {
+    const essay = set.questions.find((question) => question.kind === 'essay')!;
+    const session = emptySession(set.id);
+    session.answers[essay.id] = 'テスト';
+    session.essayRubricSelections[essay.id] = [true, true, true, true];
+    expect(scoreEssay(essay, session).score).toBe(1);
+  });
+});
+
 describe('scoreEssay', () => {
   const essay = set.questions.find((question) => question.kind === 'essay')!;
 

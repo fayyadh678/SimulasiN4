@@ -51,8 +51,11 @@ export function setNumber(set: SimulationSet): string {
 
 export function rubricCriteria(rubric: string | undefined): string[] {
   if (!rubric) return [];
-  return rubric
-    .split(/,\s*(?=[A-Za-z])/)
-    .map((item) => item.trim())
+  // Each criterion ends with "0.25"/"0,25"; split on those boundaries so commas inside a
+  // criterion (e.g. "Jepang natural (0.25), 2–3 kalimat ... (0.25)") stay intact.
+  const matches = rubric.match(/[^,]+?\(\s*0[.,]25\s*\)/g);
+  const parts = matches ?? rubric.split(/,\s*(?=[A-Za-z])/);
+  return parts
+    .map((item) => item.replace(/^[\s,]+/, '').trim().replace(/\.$/, ''))
     .filter(Boolean);
 }
