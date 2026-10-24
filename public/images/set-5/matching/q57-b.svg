@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Ilustrasi pilihan gambar">
+<title>Ilustrasi pilihan gambar</title>
+<rect width="320" height="200" fill="#f8fafc"/>
+<defs><clipPath id="panelClip"><rect width="320" height="200" rx="10"/></clipPath></defs><g clip-path="url(#panelClip)"><rect width="320" height="200" fill="#f8fafc"/><rect x="0" y="0" width="320" height="168" fill="#f8fafc"/><rect x="0" y="168" width="320" height="32" fill="#e7e5e4"/><line x1="0" y1="168" x2="320" y2="168" stroke="#d6d3d1" stroke-width="1.5" stroke-linecap="round"/><line x1="60" y1="168" x2="260" y2="168" stroke="#64748b" stroke-width="4" stroke-linecap="round"/><g transform="translate(120 168) rotate(0)">
+<line x1="0" y1="0" x2="0" y2="-52" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+<path d="M-27 -52 q27 -22 54 0 z" fill="#2563eb" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27 -52 q27 -22 54 0" fill="none" stroke="#334155" stroke-width="1.2"/>
+<path d="M0 -52 l0 -7 q7 0 7 6" fill="none" stroke="#475569" stroke-width="2.4"/>
+</g><g transform="translate(190 168) rotate(0)">
+<line x1="0" y1="0" x2="0" y2="-52" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+<path d="M-27 -52 q27 -22 54 0 z" fill="#f59e0b" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27 -52 q27 -22 54 0" fill="none" stroke="#334155" stroke-width="1.2"/>
+<path d="M0 -52 l0 -7 q7 0 7 6" fill="none" stroke="#475569" stroke-width="2.4"/>
+</g></g><title>Dua payung berdiri</title>
+</svg>

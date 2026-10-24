@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Ilustrasi pilihan gambar">
+<title>Ilustrasi pilihan gambar</title>
+<rect width="320" height="200" fill="#f8fafc"/>
+<defs><clipPath id="panelClip"><rect width="320" height="200" rx="10"/></clipPath></defs><g clip-path="url(#panelClip)"><rect width="320" height="200" fill="#f8fafc"/><rect x="0" y="0" width="320" height="150" fill="#e0f2fe"/><circle cx="276" cy="34" r="16" fill="#fbbf24" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/><rect x="0" y="150" width="320" height="50" fill="#d1fae5"/><path d="M40 150 l70 -76 l70 76 z" fill="#a3a3a3" stroke="#64748b"/><path d="M60 140 q45 -34 90 0" fill="none" stroke="#a16207" stroke-width="8"/>
+<line x1="60" y1="138" x2="60" y2="154" stroke="#8b5e34" stroke-width="4" stroke-linecap="round"/>
+<line x1="150" y1="138" x2="150" y2="154" stroke="#8b5e34" stroke-width="4" stroke-linecap="round"/>
+<line x1="66" y1="136" x2="144" y2="136" stroke="#d6d3d1" stroke-width="2" stroke-linecap="round"/><rect x="180" y="80" width="120" height="70" rx="4" fill="#fde68a" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="192" y="94" width="22" height="22" fill="#93c5fd" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="224" y="94" width="22" height="22" fill="#93c5fd" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="256" y="94" width="22" height="22" fill="#93c5fd" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="228" y="124" width="22" height="26" fill="#8b5e34" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M174 80 l66 -24 l66 24 z" fill="#f59e0b" stroke="#64748b" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/></g><title>Sekolah, jembatan, dan sungai</title>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "name": "simulasi-jlpt-n4",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simulasi JLPT N4 - 5 paket latihan, 350 soal, latihan tidak resmi",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run && node scripts/validate-content.mjs",
+    "test:unit": "vitest run",
+    "validate": "node scripts/validate-content.mjs",
+    "assets:images": "node scripts/generate-images.mjs",
+    "assets:audio": "node scripts/generate-audio.mjs",
+    "assets": "npm run assets:images && npm run assets:audio"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "ffmpeg-static": "^5.3.0",
+    "jsdom": "^26.1.0",
+    "msedge-tts": "^2.1.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7",
+    "vitest": "^3.2.7"
+  }
+}

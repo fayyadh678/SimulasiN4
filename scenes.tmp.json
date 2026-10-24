@@ -1,0 +1,577 @@
+[
+ {
+  "type": "story",
+  "id": "S1-Q51",
+  "title": "忘れた傘",
+  "panels": [
+   "朝、女性がかさを持って家を出る",
+   "会社の入口でかさ立てに置く",
+   "夜、女性がかさを忘れて手ぶらで帰る",
+   "外で雨が降り、女性が濡れて困る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S1-Q52",
+  "title": "切符の買い方",
+  "panels": [
+   "男性が駅で行き先を路線図で探す",
+   "券売機で切符を買う",
+   "改札口に切符を入れて通る",
+   "ホームで電車を待つ"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S1-Q53",
+  "title": "料理の失敗",
+  "panels": [
+   "女性がなべに水を入れて火をつける",
+   "電話が鳴り、女性が別の部屋へ行く",
+   "なべの水が少なくなって煙が出る",
+   "女性が戻って火を消す"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S1-Q54",
+  "title": "自転車の修理",
+  "panels": [
+   "男性が自転車で出かける",
+   "道路で後輪がパンクしていることに気づく",
+   "自転車を押して自転車屋へ行く",
+   "店員がタイヤを直し、男性が笑顔になる"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S1-Q55",
+  "title": "昼休みの予定",
+  "panels": [
+   "二人が公園で昼食を食べようとする",
+   "急に雨が降り始める",
+   "二人が屋根のある建物へ走る",
+   "建物の中で弁当を食べる"
+  ]
+ },
+ {
+  "type": "match",
+  "id": "S1-Q56",
+  "prompt": "男の人は左手で傘を持ちながら、右手でかばんを持っています。",
+  "scenes": {
+   "A": "Pria payung di tangan kiri, tas di tangan kanan",
+   "B": "Pria payung di tangan kanan, tas di tangan kiri",
+   "C": "Pria memegang dua tas, tanpa payung",
+   "D": "Perempuan payung di tangan kiri dan tas kanan"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S1-Q57",
+  "prompt": "テーブルの下に猫がいて、上にはコップが二つあります。",
+  "scenes": {
+   "A": "Kucing di atas meja, 2 gelas di bawah",
+   "B": "Kucing di bawah meja, 1 gelas di atas",
+   "C": "Kucing di bawah meja, 2 gelas di atas",
+   "D": "Anjing di bawah meja, 2 gelas di atas"
+  },
+  "answer": "A"
+ },
+ {
+  "type": "match",
+  "id": "S1-Q58",
+  "prompt": "時計は九時十五分を指しています。",
+  "scenes": {
+   "A": "Jam analog menunjukkan 9:45",
+   "B": "Jam analog menunjukkan 9:15",
+   "C": "Jam analog menunjukkan 3:09",
+   "D": "Jam analog menunjukkan 8:15"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "match",
+  "id": "S1-Q59",
+  "prompt": "バス停で三人が並んでいて、一番前の人が帽子をかぶっています。",
+  "scenes": {
+   "A": "3 orang antre, paling depan memakai topi",
+   "B": "3 orang antre, paling belakang bertopi",
+   "C": "2 orang antre, paling depan bertopi",
+   "D": "3 orang duduk, orang tengah bertopi"
+  },
+  "answer": "C"
+ },
+ {
+  "type": "match",
+  "id": "S1-Q60",
+  "prompt": "女の人は電車を降りたあと、階段を上っています。",
+  "scenes": {
+   "A": "Wanita naik kereta lalu duduk",
+   "B": "Wanita turun kereta lalu menuruni tangga",
+   "C": "Wanita keluar bus lalu naik tangga",
+   "D": "Wanita keluar kereta dan menaiki tangga"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "story",
+  "id": "S2-Q51",
+  "title": "落とした財布",
+  "panels": [
+   "男性がカフェで支払いをする",
+   "財布をいすの上に置いて帰る",
+   "店員が財布を見つけて電話する",
+   "男性が店に戻って財布を受け取る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S2-Q52",
+  "title": "ケーキの注文",
+  "panels": [
+   "女性がケーキ店でケーキを予約する",
+   "店員が注文票に名前と日付を書く",
+   "誕生日の日に女性が店へ来る",
+   "女性が予約したケーキを受け取る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S2-Q53",
+  "title": "雨の日の洗濯",
+  "panels": [
+   "朝、男性が庭に洗濯物を干す",
+   "男性が仕事へ出かける",
+   "昼、空が暗くなって雨が降り始める",
+   "男性が戻ると洗濯物が濡れている"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S2-Q54",
+  "title": "集合場所の変更",
+  "panels": [
+   "友だちが駅前で会うとメッセージする",
+   "駅前が工事中で入れない",
+   "友だちが近くの時計台へ行くとメッセージする",
+   "二人が時計台の下で会う"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S2-Q55",
+  "title": "図書館での返却",
+  "panels": [
+   "学生が図書館で本を借りる",
+   "二週間後、学生が本を返そうとする",
+   "返却窓口の前に「本日休み」の札がある",
+   "学生が返却ポストに本を入れる"
+  ]
+ },
+ {
+  "type": "match",
+  "id": "S2-Q56",
+  "prompt": "テーブルには赤い本が青い本の右に置いてあります。",
+  "scenes": {
+   "A": "Buku merah kiri buku biru",
+   "B": "Buku merah kanan buku biru",
+   "C": "Buku merah di bawah buku biru",
+   "D": "Hanya buku biru di atas meja"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S2-Q57",
+  "prompt": "女の子は犬を散歩させながら、電話で話しています。",
+  "scenes": {
+   "A": "Gadis berjalan dengan anjing sambil menelepon",
+   "B": "Gadis membawa kucing sambil menelepon",
+   "C": "Gadis duduk dengan anjing tanpa ponsel",
+   "D": "Pria membawa anjing dan ponsel"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S2-Q58",
+  "prompt": "店員はお客さんに二枚のチケットを渡しています。",
+  "scenes": {
+   "A": "Kasir menerima tiga tiket dari pelanggan",
+   "B": "Kasir menyerahkan satu tiket",
+   "C": "Petugas menyerahkan dua tiket ke pelanggan",
+   "D": "Pelanggan memberikan dua tiket kepada petugas"
+  },
+  "answer": "A"
+ },
+ {
+  "type": "match",
+  "id": "S2-Q59",
+  "prompt": "机の右にはいすがあり、机の左にはごみ箱があります。",
+  "scenes": {
+   "A": "Kursi kiri meja, tempat sampah kanan",
+   "B": "Kursi kanan meja, tempat sampah kiri",
+   "C": "Kursi dan sampah keduanya kanan",
+   "D": "Sampah di atas meja, kursi di belakang"
+  },
+  "answer": "C"
+ },
+ {
+  "type": "match",
+  "id": "S2-Q60",
+  "prompt": "傘を持っている人は一人だけで、ほかの二人は帽子をかぶっています。",
+  "scenes": {
+   "A": "3 orang, 2 payung dan 1 topi",
+   "B": "3 orang, 1 payung dan 1 topi",
+   "C": "2 orang, keduanya payung",
+   "D": "3 orang, 1 payung dan 2 topi"
+  },
+  "answer": "A"
+ },
+ {
+  "type": "story",
+  "id": "S3-Q51",
+  "title": "会議の準備",
+  "panels": [
+   "社員が会議室の机をならべる",
+   "資料を印刷しようとする",
+   "プリンターに紙がないことに気づく",
+   "社員が紙を補充して印刷する"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S3-Q52",
+  "title": "熱のある朝",
+  "panels": [
+   "学生が朝起き、体温計で熱を測る",
+   "体温計が高い数字を示す",
+   "学生が学校へ休む連絡をする",
+   "学生が布団に入って休む"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S3-Q53",
+  "title": "荷物の配達",
+  "panels": [
+   "配達員が家のベルを押す",
+   "家に誰もいなくてドアが開かない",
+   "配達員が不在連絡票をポストに入れる",
+   "夜、家の人が連絡票を見る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S3-Q54",
+  "title": "夜の買い物",
+  "panels": [
+   "女性が買うものをメモする",
+   "スーパーで牛乳とパンを買う",
+   "レジで財布を開くとお金が足りない",
+   "女性がパンだけ買って帰る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S3-Q55",
+  "title": "駅での案内",
+  "panels": [
+   "旅行者が地図を見ながら困っている",
+   "旅行者が駅員に道を聞く",
+   "駅員が出口番号を指さして説明する",
+   "旅行者が教えられた出口から外へ出る"
+  ]
+ },
+ {
+  "type": "match",
+  "id": "S3-Q56",
+  "prompt": "男の人は電車の窓の近くに立っていて、座っていません。",
+  "scenes": {
+   "A": "Pria berdiri dekat jendela kereta",
+   "B": "Pria duduk dekat jendela kereta",
+   "C": "Pria berdiri di luar kereta",
+   "D": "Wanita berdiri di pintu kereta"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S3-Q57",
+  "prompt": "冷蔵庫の中には卵が六つありますが、牛乳はありません。",
+  "scenes": {
+   "A": "4 telur dan susu",
+   "B": "6 telur tanpa susu",
+   "C": "6 telur dan susu",
+   "D": "8 telur tanpa susu"
+  },
+  "answer": "C"
+ },
+ {
+  "type": "match",
+  "id": "S3-Q58",
+  "prompt": "小さいかばんが大きいかばんの上に置いてあります。",
+  "scenes": {
+   "A": "Tas besar di atas tas kecil",
+   "B": "Dua tas bersebelahan",
+   "C": "Tas kecil di atas tas besar",
+   "D": "Satu tas besar di atas kursi"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "match",
+  "id": "S3-Q59",
+  "prompt": "女の人は店を出る前に、入り口で靴をはいています。",
+  "scenes": {
+   "A": "Wanita melepaskan sepatu di meja",
+   "B": "Wanita memakai sepatu di pintu sebelum keluar",
+   "C": "Pria memakai sepatu di pintu",
+   "D": "Wanita menenteng sepatu di luar"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S3-Q60",
+  "prompt": "橋の向こうに学校が見え、その手前に川があります。",
+  "scenes": {
+   "A": "Sungai di depan, jembatan melintang, sekolah di seberang",
+   "B": "Sekolah di depan sungai, jembatan di belakang",
+   "C": "Jembatan di gunung tanpa sungai",
+   "D": "Sekolah di sisi dekat sungai tanpa jembatan"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "story",
+  "id": "S4-Q51",
+  "title": "なくした鍵",
+  "panels": [
+   "女性が帰宅してかばんを探す",
+   "玄関の鍵が見つからず困る",
+   "女性が会社の机を思い出す",
+   "女性が会社に戻り机の上から鍵を取る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S4-Q52",
+  "title": "バスの乗り遅れ",
+  "panels": [
+   "男の人が時計を見ると七時四十五分",
+   "男の人がバス停へ走る",
+   "バスがちょうど出発する",
+   "男の人が次のバスを待つ"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S4-Q53",
+  "title": "野菜の栽培",
+  "panels": [
+   "子どもが小さい鉢に種をまく",
+   "毎朝じょうろで水をやる",
+   "小さな芽が出て葉が大きくなる",
+   "子どもが赤いトマトを取る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S4-Q54",
+  "title": "映画のチケット",
+  "panels": [
+   "二人が映画の時間をスマホで調べる",
+   "映画館に着いて券売機の列に並ぶ",
+   "買いたい回の席が全部売り切れている",
+   "二人が次の回の券を買う"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S4-Q55",
+  "title": "弁当の配達",
+  "panels": [
+   "店員が弁当二つを袋に入れる",
+   "配達員が自転車で出発する",
+   "道で雨が降るので雨具を着る",
+   "配達員が濡れない袋を客に渡す"
+  ]
+ },
+ {
+  "type": "match",
+  "id": "S4-Q56",
+  "prompt": "黒い靴をはいた男の人が、白い自転車を押しています。",
+  "scenes": {
+   "A": "Pria sepatu putih menaiki sepeda hitam",
+   "B": "Wanita sepatu hitam mendorong sepeda putih",
+   "C": "Pria sepatu hitam mengayuh sepeda putih",
+   "D": "Pria sepatu hitam mendorong sepeda putih"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "match",
+  "id": "S4-Q57",
+  "prompt": "カレンダーでは十五日が金曜日になっています。",
+  "scenes": {
+   "A": "Kalender dengan tanggal 15 di kolom Jumat",
+   "B": "Kalender dengan tanggal 15 di kolom Minggu",
+   "C": "Kalender dengan tanggal 15 di kolom Senin",
+   "D": "Kalender dengan tanggal 5 di kolom Jumat"
+  },
+  "answer": "A"
+ },
+ {
+  "type": "match",
+  "id": "S4-Q58",
+  "prompt": "料理をしている人の後ろで、子どもが皿を洗っています。",
+  "scenes": {
+   "A": "Anak memasak di depan, dewasa cuci piring",
+   "B": "Dewasa memasak, anak mencuci piring di belakang",
+   "C": "Anak berdiri di belakang tanpa mencuci",
+   "D": "Dua orang sedang makan di restoran"
+  },
+  "answer": "D"
+ },
+ {
+  "type": "match",
+  "id": "S4-Q59",
+  "prompt": "バスは右へ曲がろうとしていて、自転車はまっすぐ進んでいます。",
+  "scenes": {
+   "A": "Bus lurus, sepeda belok kanan",
+   "B": "Bus belok kiri, sepeda lurus",
+   "C": "Bus berbelok kanan, sepeda lurus",
+   "D": "Bus belok kanan, sepeda belok kanan"
+  },
+  "answer": "A"
+ },
+ {
+  "type": "match",
+  "id": "S4-Q60",
+  "prompt": "二階の窓は開いていますが、一階の窓は全部閉まっています。",
+  "scenes": {
+   "A": "Lantai dua jendela terbuka, lantai satu semua tertutup",
+   "B": "Lantai satu terbuka, dua tertutup",
+   "C": "Semua jendela terbuka",
+   "D": "Semua jendela tertutup"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "story",
+  "id": "S5-Q51",
+  "title": "道を間違えた日",
+  "panels": [
+   "女性が駅の北口から出る",
+   "地図を見ると目的地は南口側と分かる",
+   "女性が駅の中を通って反対側へ行く",
+   "女性が南口近くの店に着く"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S5-Q52",
+  "title": "コピー機のトラブル",
+  "panels": [
+   "学生がコンビニで資料をコピーする",
+   "コピー機から真っ白な紙が出る",
+   "学生が画面で設定を直す",
+   "次にきれいに文字のあるコピーが出る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S5-Q53",
+  "title": "公園の約束",
+  "panels": [
+   "親子が公園に来る",
+   "子どもが遊具で遊ぶ",
+   "時計が五時を示し、親が帰ろうと伝える",
+   "親子が公園を出て歩いて帰る"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S5-Q54",
+  "title": "なくなった電池",
+  "panels": [
+   "男性が目覚まし時計をセットする",
+   "翌朝、時計が止まっている",
+   "男性が電池を新しくする",
+   "時計の針が動き始める"
+  ]
+ },
+ {
+  "type": "story",
+  "id": "S5-Q55",
+  "title": "旅行の写真",
+  "panels": [
+   "旅行者が湖の前で写真を撮る",
+   "スマホに電池が少ない表示が出る",
+   "旅行者がカフェで充電する",
+   "旅行者が夕方、また写真を撮る"
+  ]
+ },
+ {
+  "type": "match",
+  "id": "S5-Q56",
+  "prompt": "女の人は本を棚に戻してから、図書館を出ます。",
+  "scenes": {
+   "A": "Wanita membawa buku keluar perpustakaan",
+   "B": "Wanita mengembalikan buku ke rak lalu keluar",
+   "C": "Wanita meminjam buku lalu duduk",
+   "D": "Petugas menumpuk buku di meja"
+  },
+  "answer": "C"
+ },
+ {
+  "type": "match",
+  "id": "S5-Q57",
+  "prompt": "傘が二本あります。短い傘は長い傘の左にあります。",
+  "scenes": {
+   "A": "Payung pendek di kanan payung panjang",
+   "B": "Dua payung panjang berdampingan",
+   "C": "Payung pendek di kiri payung panjang",
+   "D": "Payung panjang di kiri payung pendek"
+  },
+  "answer": "C"
+ },
+ {
+  "type": "match",
+  "id": "S5-Q58",
+  "prompt": "男の子は自分の前にあるケーキを食べずに、飲み物だけ飲んでいます。",
+  "scenes": {
+   "A": "Anak laki-laki makan kue dan minum",
+   "B": "Anak perempuan hanya minum, kue di depan",
+   "C": "Anak laki-laki makan kue tanpa minum",
+   "D": "Anak laki-laki hanya minum, kue utuh di depannya"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "match",
+  "id": "S5-Q59",
+  "prompt": "切符を買う人が四人並んでいて、最後の人は大きい荷物を持っています。",
+  "scenes": {
+   "A": "4 orang antre tiket, terakhir memegang koper besar",
+   "B": "4 orang antre tiket, paling depan membawa koper",
+   "C": "3 orang antre tiket, terakhir bawa koper",
+   "D": "4 orang antre, tidak ada koper"
+  },
+  "answer": "B"
+ },
+ {
+  "type": "match",
+  "id": "S5-Q60",
+  "prompt": "窓の外では雪が降っていますが、部屋の中では子どもが半そでを着ています。",
+  "scenes": {
+   "A": "Di luar hujan, anak lengan panjang",
+   "B": "Di luar salju, anak berbaju lengan pendek di dalam",
+   "C": "Di luar salju, anak memakai mantel tebal di dalam",
+   "D": "Di luar cerah, anak berbaju lengan pendek"
+  },
+  "answer": "B"
+ }
+]
