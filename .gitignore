@@ -6,3 +6,4 @@ tools/
 .DS_Store
 Thumbs.db
 .vite/
+*.tsbuildinfo
